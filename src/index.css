@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: hsl(209, 61%, 16%);
+  background-image: url('images/background.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.section{
+  padding: 5rem 0;
+}
+
+.section-center{
+  width: 90vw;
+  margin: 0 auto;
+  max-width: 35rem;
+  margin-top: 8rem;
+  background: rgba(255, 255, 255, 0.776);
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  transition: all 0.3s linear;
+  padding: 2rem;
+}
+
+.form{
+  display: flex;
+  justify-content: center;
+}
+
+.form-control{
+  margin-right: 5px;
+}
+
+.list-group-item{
+  border-radius: 10px !important;
+  margin-bottom: 10px;
+}
+
+.alert-danger{
+  color: #721c24;
+  background: #f8d1da;
+}
+
+.alert-success{
+  color: #155724;
+  background: #d4edda;
+}
+
+.edit-btn, .delete-btn{
+  background: transparent;
+  border-color: transparent;
+  cursor: pointer;
+  font-size: 1rem;
+  margin: 0 0.10rem;
+  transition: all 0.3s linear;
+}
+
+.edit-btn{
+  color: #0303a0;
+}
+
+.delete-btn{
+  color: #c52e2e;
+}
+
